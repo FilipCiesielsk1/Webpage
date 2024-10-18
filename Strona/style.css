@@ -1,0 +1,348 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size:larger;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+    color: #333;
+}
+
+.scroll-to-top {
+    position: fixed;
+    background: transparent;
+    bottom: 0.1%;
+    right: 0.1%;
+    opacity: 0; /* Początkowo ukryta */
+    cursor: pointer;
+    scale: 0.5;
+    /* transition-duration: 0.2s; */
+    transition-duration: 0.4s;
+    pointer-events: none;
+  }
+
+  .scroll-to-top.visible {
+    opacity: 1; /* Widoczna */
+    pointer-events: auto;
+  }
+  
+  .scroll-to-top:hover {
+    opacity: 0.2;
+    transform: scale(1.2);
+  }
+  
+
+/* header {
+    background: #007239;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+} */
+
+
+header {
+    background-image: url('IMAGES/bg.jpg');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+.head_container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    overflow:auto;
+    padding: 30px 2px;
+}
+
+#home_button {
+    width: 20%;
+    padding: 10px 40px;
+    font-size: 80%;
+    background: #003f1f;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition-duration: 250ms;
+    text-decoration: none;
+}
+
+#home_button:hover {
+    background: #fff;
+    color: #003f1f;
+    transform: scale(1.2);
+}
+
+#home_button:active{
+    background: #003f1f;
+    transform: scale(1.07);
+    color: #fff;
+}
+
+    header button{
+        max-width: 100%;
+        padding: 10px 40px;
+        font-size: 80%;
+        background: #003f1f;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        transition-duration: 250ms;
+    }
+
+    header button:hover {
+        background: #fff;
+        color: #003f1f;
+        transform: scale(1.2);
+    }
+
+    header button:active {
+        background: #003f1f;
+        transform: scale(1.07);
+        color: #fff;
+    }
+
+.logopp {
+    max-width: 30%;
+    padding-bottom: 20px;
+}
+
+.pp_container {
+    width: 65%;
+    max-height: 100%;
+    margin: auto;
+    overflow:auto;
+    padding: 30px 2px;
+}
+
+.pp_container ol li{
+    line-height: 1.4;
+}
+
+.pp_container h2 {
+    color: #003f1f;
+    font-size: xx-large;
+}
+
+.pp_container p{
+    text-align: justify;
+    line-height: 1.5;
+    font-size: medium;
+}
+
+.pp_container li{
+    text-align: justify;
+    line-height: 2.5;
+    font-size: medium;
+}
+
+nav {
+    /* background: #209e62; */
+    background: #fff;
+    padding: 1px;
+    font-size: large;
+}
+
+    nav ul {
+        list-style: none;
+        text-align: center;
+        padding: 10px;
+        /* border-radius: 10px; */
+        border-bottom: 1px #000000;
+        border-bottom-style: solid;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 100px;
+    }
+
+    nav ul li a {
+        font-size: larger;
+        color: #003f1f;
+        text-decoration:none;
+    }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow:auto;
+            padding: 30px 2px;
+        }
+
+        .services-container {
+            display:flex;
+            width: 99%;
+            overflow:auto;
+            padding: 0;
+            /* background-color: black; */
+        }
+
+        .logo {
+            max-width: 35%;
+        }
+
+
+        .profile-photo {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+
+        .service{
+            width: 100%;
+            background: #fff;
+            padding: 20px;
+            margin: 20px 1px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #0a0a0a27;
+        }
+        
+        .service-price {
+            font-size: xx-large;
+            text-align: center;
+            align-content: center;
+            width: 15%;
+            color: #007239;
+            background: #fff;
+            padding: 20px;
+            margin: 20px 1px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #0a0a0a27;
+        }
+
+        .case {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 1px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #0a0a0a27;
+        }
+
+#about {
+    text-align: justify;
+}
+
+#uslugi {
+    width: 80%;
+    margin: auto;
+    overflow:auto;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+#services {
+    text-align: justify;
+}
+
+
+.kontakt {
+    display:flex;
+    flex-direction: row;
+}
+
+.contact-form {
+    max-width: 35%;
+}
+.contact-form p {
+    text-align: justify;
+}
+
+form {
+    display:inline-flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: x-large;
+}
+
+    form input {
+        font-size: large;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    form textarea {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        height: 150px;
+        font-size: 18px;
+        resize: none;
+    }
+
+    .checkbox {
+        font-size: small;
+        text-align: justify;
+        padding-bottom: 15px;
+    }
+
+    form button {
+        font-size: large;
+        padding: 10px;
+        background: #007239;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        transition-duration: 250ms;
+    }
+
+        form button:hover {
+            background: #209e62;
+            transform: scale(1.03);
+        }
+
+        form button:active {
+            background: #007239;
+            transform: scale(1);
+        }
+
+    
+.contact-direct {
+    display:inline-flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+    .ct-type {
+        font-size: x-large ;
+        padding: 20px 0;
+        display: flex;
+        justify-content:baseline;
+        align-items:center;
+        height: 10%;
+        gap: 30px;
+    }
+
+    .phone, .email {
+        height: 100%;
+    }
+
+footer {
+    font-size: small;
+    /* background: #007239; */
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    line-height: 1;
+    color: #4dee9d;
+    padding: 12px 0;
+    margin-top: 40px;
+    text-align: center;
+}
+footer a {
+    color: #4dee9d;
+}

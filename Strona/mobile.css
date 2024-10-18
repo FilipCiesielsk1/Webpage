@@ -1,0 +1,203 @@
+/* General adjustments for mobile */
+body {
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+    color: #333;
+}
+
+/* Header */
+header {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: medium;
+}
+
+.logo {
+    max-width: 50%;
+}
+
+.logopp {
+    max-width: 70%;
+    padding-bottom: 20px;
+}
+#home_button {
+    width: 40%;
+}
+
+header button {
+    font-size: smaller;
+    padding: 8px 20px;
+    width: 100%;
+    max-width: fit-content;
+    box-sizing: border-box;
+}
+
+/* Navigation adjustments */
+nav {
+    /* background: #209e62; */
+    background: #fff;
+    padding: 2px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    /* border-radius: 10px; */
+    border-bottom: 1px #fff;
+    border-bottom-style: solid;
+}
+
+nav ul li {
+    background: #209e62;
+    display: block;
+    margin: 1px 2%;
+    font-size: medium;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #0a0a0a27;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 6px;
+    display: block;
+    text-decoration: none;
+}
+
+/* Container and service adjustments */
+.container {
+    width: 95%;
+    padding: 10px;
+    font-size: med;
+}
+
+.pp_container {
+    width: 85%;
+}
+
+.pp_container ol {
+    padding-left: 4%;
+}
+
+.pp_container h2 {
+    font-size: large;
+}
+
+.pp_container p {
+    font-size: small;
+}
+
+.pp_container li{
+    text-align: justify;
+    line-height: 1.6;
+    font-size: small;
+}
+
+#about {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.service {
+    width: 90%;
+    margin: 10px 0 5px 0;
+    padding: 15px;
+}
+
+.service-price {
+    font-size: large;
+    width: 90%;
+    margin: 0 0 20px 0;
+    padding: 15px;
+}
+
+.service-price p {
+    margin: 0;
+}
+
+/* Profile photo */
+.profile-photo {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Case study section */
+.case {
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.kontakt {
+    flex-direction: column;
+}
+
+/* Contact form */
+.contact-form {
+    max-width: 100%;
+    padding: 10px;
+}
+
+.contact-form p {
+    text-align: justify;
+}
+
+.ct-type {
+    font-size: medium ;
+    padding: 20px 0;
+    display: flex;
+    justify-content:baseline;
+    align-items:center;
+    height: 10%;
+    gap: 30px;
+}
+
+/* .contact-direct {
+    padding-left:20%;
+} */
+
+.phone, .email {
+    max-height: 10%;
+    max-width: 10%;
+}
+
+
+form {
+    font-size: medium;
+    display: block;
+    width: 100%;
+}
+
+form input, form textarea {
+    font-size: medium;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    font-size: medium;
+    padding: 10px;
+    width: 100%;
+    background: #007239;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #209e62;
+}
