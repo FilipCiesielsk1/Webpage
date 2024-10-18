@@ -17,6 +17,11 @@ header {
     font-size: medium;
 }
 
+.scroll-to-top:hover {
+    opacity: 0;
+    transform: ;
+  }
+
 .logo {
     max-width: 50%;
 }
