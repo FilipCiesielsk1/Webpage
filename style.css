@@ -31,19 +31,7 @@ body {
   .scroll-to-top:hover {
     opacity: 0.2;
     transform: scale(1.2);
-  }
-  .scroll-to-top:active, .scroll-to-top:focus {
-    outline:none;
-    box-shadow: none;
-  }
-  
-
-/* header {
-    background: #007239;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-} */
+  }  
 
 
 header {

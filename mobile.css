@@ -20,7 +20,11 @@ header {
 .scroll-to-top:hover {
     opacity: 0;
     transform: ;
-  }
+}
+
+.scroll-to-top {
+    -webkit-tap-highlight-color: transparent;
+}
 
 .logo {
     max-width: 50%;
