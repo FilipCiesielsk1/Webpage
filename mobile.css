@@ -19,7 +19,7 @@ header {
 
 .scroll-to-top:hover {
     opacity: 0;
-    transform: ;
+    transform: none;
 }
 
 .scroll-to-top {
