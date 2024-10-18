@@ -17,6 +17,7 @@ body {
     cursor: pointer;
     scale: 0.5;
     /* transition-duration: 0.2s; */
+    border-radius = 50%;
     transition-duration: 0.4s;
     pointer-events: none;
   }
